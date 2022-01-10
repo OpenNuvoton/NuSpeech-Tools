@@ -1,0 +1,23 @@
+;Level|SW_Name|CurrentVersion|UpdateToVersion|OnlineVersion|URL_to_Download|Exe_of_Installer 
+;NuIDE 
+0|NuIDE|*|3.08.000|https://github.com/OpenNuvoton/NuSpeech-Tools/raw/NuIDE/NuIDE_V3.08.000_Setup.zip|NuIDE_V3.08.000_Setup.exe
+0|NuIDE|3.08.000|3.08.004|https://github.com/OpenNuvoton/NuSpeech-Tools/raw/NuIDE/NuIDE_V3.08.000_SP4.zip|NuIDE_V3.08.000_SP4.exe
+;N566H 
+0|N566H|*|1.06.000|
+;N567H 
+0|N567H|*|3.04.000|
+;N584H 
+0|N584H|*|V1.40.000|
+;N588H 
+0|N588H|*|3.15.000|https://github.com/OpenNuvoton/NuSpeech-Tools/raw/N588H/N588H_SDS_V3.15.000_Setup.zip|N588H_SDS_V3.15.000_Setup.exe
+0|N588H|3.15.000|3.15.006|https://github.com/OpenNuvoton/NuSpeech-Tools/raw/N588H/N588H_SDS_V3.15.000_SP6.zip|N588H_SDS_V3.15.000_SP6.exe
+;N588L 
+0|N588L|*|V1.06.000|
+0|N588L|V1.06.000|
+;N589 
+0|N589|*|1.08.000|https://github.com/OpenNuvoton/NuSpeech-Tools/raw/N589/N589_SDS_V1.08.000_Setup.zip|N589_SDS_V1.08.000_Setup.exe 
+0|N589|1.08.000|1.08.001|https://github.com/OpenNuvoton/NuSpeech-Tools/raw/N589/N589_SDS_V1.08.000_SP1.zip|N589_SDS_V1.08.000_SP1.exe 
+;W584 
+0|W584|*|3.07.000|
+;------------------------------- 
+;You could add any comment text
