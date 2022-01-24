@@ -8,12 +8,12 @@
 0|N567H|*|3.04.000|https://github.com/OpenNuvoton/NuSpeech-Tools/raw/N567H/N567H_SDS_V3.04.000_Setup.zip|N567H_SDS_V3.04.000_Setup.exe
 0|N567H|3.04.000|3.04.003|https://github.com/OpenNuvoton/NuSpeech-Tools/raw/N567H/N567H_SDS_V3.04.000_SP3.zip|N567H_SDS_V3.04.000_SP3.exe
 ;N584H 
-0|N584H|*|V1.03.000|https://github.com/OpenNuvoton/NuSpeech-Tools/raw/N584H/N584H_SDS_V1.03.000_Setup.zip|N584H_SDS_V1.03.000_Setup.exe
+0|N584H|*|1.03.000|https://github.com/OpenNuvoton/NuSpeech-Tools/raw/N584H/N584H_SDS_V1.03.000_Setup.zip|N584H_SDS_V1.03.000_Setup.exe
 ;N588H 
 0|N588H|*|3.15.000|https://github.com/OpenNuvoton/NuSpeech-Tools/raw/N588H/N588H_SDS_V3.15.000_Setup.zip|N588H_SDS_V3.15.000_Setup.exe
 0|N588H|3.15.000|3.15.006|https://github.com/OpenNuvoton/NuSpeech-Tools/raw/N588H/N588H_SDS_V3.15.000_SP6.zip|N588H_SDS_V3.15.000_SP6.exe
 ;N588L 
-0|N588L|*|V1.06.000|https://github.com/OpenNuvoton/NuSpeech-Tools/raw/N588L/N588L_SDS_V1.06.000_Setup.zip|N588L_SDS_V1.06.000_Setup.exe
+0|N588L|*|1.06.000|https://github.com/OpenNuvoton/NuSpeech-Tools/raw/N588L/N588L_SDS_V1.06.000_Setup.zip|N588L_SDS_V1.06.000_Setup.exe
 ;N589 
 0|N589|*|1.08.000|https://github.com/OpenNuvoton/NuSpeech-Tools/raw/N589/N589_SDS_V1.08.000_Setup.zip|N589_SDS_V1.08.000_Setup.exe 
 0|N589|1.08.000|1.08.001|https://github.com/OpenNuvoton/NuSpeech-Tools/raw/N589/N589_SDS_V1.08.000_SP1.zip|N589_SDS_V1.08.000_SP1.exe 
