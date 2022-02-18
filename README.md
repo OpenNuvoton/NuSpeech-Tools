@@ -1,4 +1,11 @@
 All installers are zipped with password: 123456
+-------------
+N584H SDS V1.03.000 SP1
+-------------
+Based on SDS V1.03.000 and add following issue.
+
+[Bug-Fixed]
++ Converting some kinds of MIDI file would cause crash. 
 
 -------------
 N584H SDS V1.03.000
