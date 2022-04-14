@@ -1,6 +1,19 @@
 All installers are zipped with password: 123456
 
 -------------
+N566H - V1.06.000 SP3
+-------------
+[Feature]
+ + Add support of play-by-index.
+
+-------------
+N566H - V1.06.000 SP2
+-------------
+[Bug-Fixed]
+ + Update assembler to fix if statements bug
+ + Avoid leaving too many files in temporary folder which cause NuIDE slow down.
+
+-------------
 N566H - V1.06.000
 -------------
 [Feature]
