@@ -3,7 +3,7 @@ All installers are zipped with password: 123456
 -------------
 NuSpeech IDE installer
 -------------
-- [NuIDE]V3.08.000+SP5
+- [NuIDE]V3.08.000+SP6
 
 -------------
 NuSpeech SDS installer
@@ -13,5 +13,5 @@ NuSpeech SDS installer
 - [N584H]V1.03.000
 - [N588H]V3.15.000+SP6
 - [N588L]V1.06.000+SP2
-- [N589] V1.08.000+SP3
+- [N589] V1.08.000+SP4
 - [W584] V3.07.000
