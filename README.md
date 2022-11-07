@@ -9,7 +9,7 @@ NuSpeech IDE installer
 NuSpeech SDS installer
 -------------
 - [N566H]V1.06.000+SP3
-- [N567H]V3.04.000+SP4
+- [N567H]V3.04.000+SP5
 - [N584H]V1.03.000
 - [N588H]V3.15.000+SP8
 - [N588L]V1.06.000+SP2

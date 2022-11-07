@@ -7,7 +7,7 @@
 0|N566H|1.06.000|1.06.003|https://github.com/OpenNuvoton/NuSpeech-Tools/raw/N566H/N566H_SDS_V1.06.000_SP3.zip|N566H_SDS_V1.06.000_SP3.exe
 ;N567H 
 0|N567H|*|3.04.000|https://github.com/OpenNuvoton/NuSpeech-Tools/raw/N567H/N567H_SDS_V3.04.000_Setup.zip|N567H_SDS_V3.04.000_Setup.exe
-0|N567H|3.04.000|3.04.004|https://github.com/OpenNuvoton/NuSpeech-Tools/raw/N567H/N567H_SDS_V3.04.000_SP4.zip|N567H_SDS_V3.04.000_SP4.exe
+0|N567H|3.04.000|3.04.005|https://github.com/OpenNuvoton/NuSpeech-Tools/raw/N567H/N567H_SDS_V3.04.000_SP5.zip|N567H_SDS_V3.04.000_SP5.exe
 ;N584H 
 0|N584H|*|1.03.000|https://github.com/OpenNuvoton/NuSpeech-Tools/raw/N584H/N584H_SDS_V1.03.000_Setup.zip|N584H_SDS_V1.03.000_Setup.exe
 ;N588H 
