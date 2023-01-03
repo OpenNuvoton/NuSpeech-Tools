@@ -1,4 +1,19 @@
 All installers are zipped with password: 123456
+-------------
+N584H SDS V1.03.000 SP2
+-------------
+Based on SDS V1.03.000 SP1 and add following issue.
+
+[Bug-Fixed]
++ Update FW and codegen to fix UltraIO FW PWM level Resolution < 14, the LED flashing is wrong
+	
+-------------
+N584H SDS V1.03.000 SP1
+-------------
+Based on SDS V1.03.000 and add following issue.
+
+[Bug-Fixed]
++ Converting some kinds of MIDI file would cause crash. 
 
 -------------
 N584H SDS V1.03.000
