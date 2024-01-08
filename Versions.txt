@@ -23,6 +23,7 @@
 ;W584 
 0|W584|*|3.07.000|https://github.com/OpenNuvoton/NuSpeech-Tools/raw/W584/W584_SDS_V3.07.000_Setup.zip|W584_SDS_V3.07.000_Setup.exe
 ;NSP ICP Writer
-0|NSP ICP Writer|*|1.16.105|https://github.com/OpenNuvoton/NuSpeech-Tools/raw/NSP_ICP_Writer/NSP_ICP_Writer_V1.16.105_Setup.zip|NSP_ICP_Writer_V1.16.105_Setup.exe
+0|NSP ICP Writer|*|1.17.000|https://github.com/OpenNuvoton/NuSpeech-Tools/raw/NSP_ICP_Writer/NSP_ICP_Writer_V1.17.000_Setup.zip|NSP_ICP_Writer_V1.17.000_Setup.exe
+0|NSP ICP Writer|1.17.000|1.17.001|https://github.com/OpenNuvoton/NuSpeech-Tools/raw/NSP_ICP_Writer/NSP_ICP_Writer_V1.17.000_SP1.zip|NSP_ICP_Writer_V1.17.000_SP1.exe
 ;------------------------------- 
 ;You could add any comment text
