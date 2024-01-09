@@ -4,6 +4,7 @@ All installers are zipped with password: 123456
 N588L_V1.07.000
 -------------
 Based on N588L V1.06.000 SP3 and add the following issues.
+
 [Feature]
 + Add chip items: N588LP122/N588LP162/N588LP202/N588LP242/N588LP282/N588LP332.
 
