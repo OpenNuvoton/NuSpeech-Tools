@@ -18,7 +18,7 @@
 0|N588L|*|1.07.000|https://github.com/OpenNuvoton/NuSpeech-Tools/raw/N588L/N588L_SDS_V1.07.000_Setup.zip|N588L_SDS_V1.07.000_Setup.exe
 ;N589 
 0|N589|*|1.09.000|https://github.com/OpenNuvoton/NuSpeech-Tools/raw/N589/N589_SDS_V1.09.000_Setup.zip|N589_SDS_V1.09.000_Setup.exe
-0|N589|1.09.000|1.09.002|https://github.com/OpenNuvoton/NuSpeech-Tools/raw/N589/N589_SDS_V1.09.000_SP2.zip|N589_SDS_V1.09.000_SP2.exe
+0|N589|1.09.000|1.09.003|https://github.com/OpenNuvoton/NuSpeech-Tools/raw/N589/N589_SDS_V1.09.000_SP3.zip|N589_SDS_V1.09.000_SP3.exe
 ;W584 
 0|W584|*|3.07.000|https://github.com/OpenNuvoton/NuSpeech-Tools/raw/W584/W584_SDS_V3.07.000_Setup.zip|W584_SDS_V3.07.000_Setup.exe
 ;NSP ICP Writer
