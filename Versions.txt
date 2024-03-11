@@ -4,7 +4,7 @@
 0|NuIDE|3.08.000|3.08.009|https://github.com/OpenNuvoton/NuSpeech-Tools/raw/NuIDE/NuIDE_V3.08.000_SP9.zip|NuIDE_V3.08.000_SP9.exe
 ;N566H 
 0|N566H|*|1.06.000|https://github.com/OpenNuvoton/NuSpeech-Tools/raw/N566H/N566H_SDS_V1.06.000_Setup.zip|N566H_SDS_V1.06.000_Setup.exe
-0|N566H|1.06.000|1.06.005|https://github.com/OpenNuvoton/NuSpeech-Tools/raw/N566H/N566H_SDS_V1.06.000_SP5.zip|N566H_SDS_V1.06.000_SP5.exe
+0|N566H|1.06.000|1.06.006|https://github.com/OpenNuvoton/NuSpeech-Tools/raw/N566H/N566H_SDS_V1.06.000_SP6.zip|N566H_SDS_V1.06.000_SP6.exe
 ;N567H 
 0|N567H|*|3.04.000|https://github.com/OpenNuvoton/NuSpeech-Tools/raw/N567H/N567H_SDS_V3.04.000_Setup.zip|N567H_SDS_V3.04.000_Setup.exe
 0|N567H|3.04.000|3.04.005|https://github.com/OpenNuvoton/NuSpeech-Tools/raw/N567H/N567H_SDS_V3.04.000_SP5.zip|N567H_SDS_V3.04.000_SP5.exe
@@ -18,7 +18,7 @@
 0|N588L|*|1.07.000|https://github.com/OpenNuvoton/NuSpeech-Tools/raw/N588L/N588L_SDS_V1.07.000_Setup.zip|N588L_SDS_V1.07.000_Setup.exe
 ;N589 
 0|N589|*|1.09.000|https://github.com/OpenNuvoton/NuSpeech-Tools/raw/N589/N589_SDS_V1.09.000_Setup.zip|N589_SDS_V1.09.000_Setup.exe
-0|N589|1.09.000|1.09.003|https://github.com/OpenNuvoton/NuSpeech-Tools/raw/N589/N589_SDS_V1.09.000_SP3.zip|N589_SDS_V1.09.000_SP3.exe
+0|N589|1.09.000|1.09.004|https://github.com/OpenNuvoton/NuSpeech-Tools/raw/N589/N589_SDS_V1.09.000_SP4.zip|N589_SDS_V1.09.000_SP4.exe
 ;W584 
 0|W584|*|3.07.000|https://github.com/OpenNuvoton/NuSpeech-Tools/raw/W584/W584_SDS_V3.07.000_Setup.zip|W584_SDS_V3.07.000_Setup.exe
 ;NSP ICP Writer
