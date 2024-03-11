@@ -1,6 +1,41 @@
 All installers are zipped with password: 123456
 
 -------------
+N566H - V1.06.000 SP6
+-------------
+[Feature]
+ + Adjust binary file format of N566LP chip series to be used as input file for EVB programming.
+
+-------------
+N566H - V1.06.000 SP5
+-------------
+[Bug-Fixed]
++ Pull High/Low 1M ohm will get back to 150K ohm after close mask option dialog
+
+-------------
+N566H - V1.06.000 SP4
+-------------
+[Feature]
+ + Remove 330K ohm from MaskOption UI for N566LP
+ + Remove 330K ohm from frm file for N566LP
+
+[Bug-Fixed]
+ + Mask option booster voltage is empty after open N566LP project
+ 
+-------------
+N566H - V1.06.000 SP3
+-------------
+[Feature]
+ + Add support of play-by-index.
+
+-------------
+N566H - V1.06.000 SP2
+-------------
+[Bug-Fixed]
+ + Update assembler to fix if statements bug
+ + Avoid leaving too many files in temporary folder which cause NuIDE slow down.
+
+-------------
 N566H - V1.06.000
 -------------
 [Feature]
