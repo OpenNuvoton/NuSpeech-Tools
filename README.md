@@ -1,5 +1,76 @@
 All installers are zipped with password: 123456
 
+-------------
+N589 SDS V1.09.000 SP6
+-------------
+Based On N589_V1.09.000 SP5 and add the following issue.
+
+[Features]
+  + Support N589B650 to access SPI flash by GPIO.
+  
+-------------
+N589 SDS V1.09.000 SP5
+-------------
+Based On N589_V1.09.000 SP4 and add the following issue
+
+[Features]
+  + Enhance IR library to reduce probability of false trigger of N589 IR
+  + Support IR 16bits data
+  + New GUI to display and list checking result about IR protocol setting
+  + Speed up building resource files by multi-processors
+  + Check and fix serial LED color pixel information must be smaller than max sample position when generate the play ALED data.
+  + Check new generated ALED data position is too close the final ALED data position then skip generate data at converting ALED data
+
+[Bug-Fixed]
+  * For N589L chip series, protection page doesn't work.
+
+-------------
+N589 SDS V1.09.000 SP4
+-------------
+Based On N589_V1.09.000 SP3 and add the following issue
+[Features]
+  + Software ALED with configurable ALED output pins.
+  + Add support of N589D [655|965] and related packages
+  + Add new defaud parameter - BitRate that is available during UID import/export.
+
+[Modification]
+  + Pack checking sample rate messages into SpeechCheck.txt file.
+
+[Bug-Fixed]
+  + Smaller silence wio encoded as NSP with noise
+
+-------------
+N589 SDS V1.09.000 SP3
+-------------
+Based On N589_V1.09.000 SP2 and add the following issue
+[Features]
+  + Support Addressable LED for N589E chip series.
+  + Can add Vixen format(.CSV) into resource window as EVO for playback ALED directly for N589E chip series.
+
+[Bug-Fixed]
+  + "Reference External Voltage" setting does not be saved
+  + Request Form file shows wrong information about UltraIO enabled port name for asm project.
+  + Key stop responding when use sleep timer in conjunction with certain stack operations for PS project.(N589ABCDL)
+  + For PowerScript project, fixed an issue that the Error Code returned by the “Read/Upadte protection page” instruction was incorrect. (N589ABCDL)
+
+-------------
+N589 SDS V1.09.000 SP2
+-------------
+[Features]
+  + Can add Vixen format(.CSV) into resource window as EVO for playback ALED directly with adjustable Vixen data time interval
+  + Add a note message to info user to enable LVD in LVD setting GUI
+
+[Bug-Fixed]
+  + Fix calculation of address of SLD data chunk bug for N589A1K4|N589A1K9|N589B1K5|N589B2K0|N589C1K5|N589C2K0|N589D1K5|N589D2K0
+  + Fix to report error when the IF, SWITCH,WHILE expression do not match with END syntax.
+
+-------------
+N589 SDS V1.09.000 SP1
+-------------
+[Bug-Fixed]
+  + Correct MIDI delta time calculation for long duration pairing of note-on and note-off.
+
+-------------
 N589 SDS V1.09.000
 -------------
 [Features]
