@@ -26,6 +26,6 @@
 ;0|NSP ICP Writer|*|1.17.000|https://github.com/OpenNuvoton/NuSpeech-Tools/raw/NSP_ICP_Writer/NSP_ICP_Writer_V1.17.000_Setup.zip|NSP_ICP_Writer_V1.17.000_Setup.exe
 ;0|NSP ICP Writer|1.17.000|1.17.001|https://github.com/OpenNuvoton/NuSpeech-Tools/raw/NSP_ICP_Writer/NSP_ICP_Writer_V1.17.000_SP1.zip|NSP_ICP_Writer_V1.17.000_SP1.exe
 ;PlaylistEditor
-0|NSPPlayListEditor|*|3.00.165|https://github.com/OpenNuvoton/NuSpeech-Tools/raw/NSP_PlayList_Editor/NSPPlayListEditor_V3.00.165_Setup.zip|NSPPlayListEditor_V3.00.165_Setup.exe
+;0|NSPPlayListEditor|*|3.00.000|https://github.com/OpenNuvoton/NuSpeech-Tools/raw/NSP_PlayList_Editor/NSPPlayListEditor_V3.00.000_Setup.zip|NSPPlayListEditor_V3.00.000_Setup.exe
 ;------------------------------- 
 ;You could add any comment text
