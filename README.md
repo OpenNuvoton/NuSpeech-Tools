@@ -3,7 +3,7 @@ All installers are zipped with password: 123456
 -------------
 NuSpeech IDE installer
 -------------
-- [NuIDE]V3.08.000+SP9
+- [NuIDE]V4.00.000
 
 -------------
 NuSpeech SDS installer
