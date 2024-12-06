@@ -1,5 +1,134 @@
 All installers are zipped with password: 123456
 
+-------------
+N589 SDS V1.09.000 SP10
+-------------
+Based On N589_V1.09.000 SP9 and add the following issue
+[Features]
+ + Add chip item support for N589S080[DIE|TSSOP20|TSSOP28|LQFP48]
+ + Add the PS commands: PROTECTION_PAGE_ERASE_ALL, IDLE
+ + Support for converting servo motor and frequency transition curves in UIO files.
+
+[Bug-Fixed]
+ + Fix bug in wave table file conversion process which has chance to convert fail under new multiple process resource conversion mechanism.
+ + Fix cap key index mapping for some package form chips.
+
+-------------
+N589 SDS V1.09.000 SP9
+-------------
+Based On N589_V1.09.000 SP8 and add the following issue
+[Features]  
+  + Support these TSSOP28 chips
+    Add N589B085|125|175|205|255|345
+    Add N589D081|121|171|201|251|341|481
+    Add N589D085|125|175|205|255|345|485
+
+-------------
+N589 SDS V1.09.000 SP8
+-------------
+Based On N589_V1.09.000 SP7 and add the following issue
+[Features]
+  + N589L support CapTouch
+  + Add N589B[080|120|170|200|250|340]_TSSOP28
+[Modification]
+  * Enhance [Import UID]
+    [+] New DEFAUD attribute - FileExt. Can exprot "fileExt" definition or not in export dialog.
+    [+] Output .LOG file located in project folder which describe each decision step for certain circumstances 
+        (e.g. not found audio resource, encoded format is not defined, etc.).
+    [*] Refine searching strategy of audio resources.
+    [*] Refine exporting of UID file.
+  * Fine-tune [Duplicate Project]
+    [*] Always disable duplicating system include files.
+  * Fine-tune play-by-index code-generation that affected intelligent build.
+
+[Bug-Fixed]
+  * Fix bug that after changing search path, the builder will fail to link resource file.
+  * Behavior of search path changed.
+        1. Allow to add non-exist folder when editing the search path.
+        2. Do not remove the search path even if the path does not exist upon opening the project.
+  * Help description about “Play Segment” is missing.
+
+-------------
+N589 SDS V1.09.000 SP7
+-------------
+Based On N589_V1.09.000 SP6 and add the following issue
+[Features]
++ Support N55P243 IO expander.
++ Support at most 5 IO expander devices.
++ Support at most 120 UltraIO outputs.
++ Support gamma curve for ALED output signal.
+
+-------------
+N589 SDS V1.09.000 SP6
+-------------
+Based On N589_V1.09.000 SP5 and add the following issue.
+
+[Features]
+  + Support N589B650 to access SPI flash by GPIO.
+  
+-------------
+N589 SDS V1.09.000 SP5
+-------------
+Based On N589_V1.09.000 SP4 and add the following issue
+
+[Features]
+  + Enhance IR library to reduce probability of false trigger of N589 IR
+  + Support IR 16bits data
+  + New GUI to display and list checking result about IR protocol setting
+  + Speed up building resource files by multi-processors
+  + Check and fix serial LED color pixel information must be smaller than max sample position when generate the play ALED data.
+  + Check new generated ALED data position is too close the final ALED data position then skip generate data at converting ALED data
+
+[Bug-Fixed]
+  * For N589L chip series, protection page doesn't work.
+
+-------------
+N589 SDS V1.09.000 SP4
+-------------
+Based On N589_V1.09.000 SP3 and add the following issue
+[Features]
+  + Software ALED with configurable ALED output pins.
+  + Add support of N589D [655|965] and related packages
+  + Add new defaud parameter - BitRate that is available during UID import/export.
+
+[Modification]
+  + Pack checking sample rate messages into SpeechCheck.txt file.
+
+[Bug-Fixed]
+  + Smaller silence wio encoded as NSP with noise
+
+-------------
+N589 SDS V1.09.000 SP3
+-------------
+Based On N589_V1.09.000 SP2 and add the following issue
+[Features]
+  + Support Addressable LED for N589E chip series.
+  + Can add Vixen format(.CSV) into resource window as EVO for playback ALED directly for N589E chip series.
+
+[Bug-Fixed]
+  + "Reference External Voltage" setting does not be saved
+  + Request Form file shows wrong information about UltraIO enabled port name for asm project.
+  + Key stop responding when use sleep timer in conjunction with certain stack operations for PS project.(N589ABCDL)
+  + For PowerScript project, fixed an issue that the Error Code returned by the “Read/Upadte protection page” instruction was incorrect. (N589ABCDL)
+
+-------------
+N589 SDS V1.09.000 SP2
+-------------
+[Features]
+  + Can add Vixen format(.CSV) into resource window as EVO for playback ALED directly with adjustable Vixen data time interval
+  + Add a note message to info user to enable LVD in LVD setting GUI
+
+[Bug-Fixed]
+  + Fix calculation of address of SLD data chunk bug for N589A1K4|N589A1K9|N589B1K5|N589B2K0|N589C1K5|N589C2K0|N589D1K5|N589D2K0
+  + Fix to report error when the IF, SWITCH,WHILE expression do not match with END syntax.
+
+-------------
+N589 SDS V1.09.000 SP1
+-------------
+[Bug-Fixed]
+  + Correct MIDI delta time calculation for long duration pairing of note-on and note-off.
+
+-------------
 N589 SDS V1.09.000
 -------------
 [Features]
