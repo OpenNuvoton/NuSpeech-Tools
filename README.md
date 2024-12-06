@@ -1,6 +1,18 @@
 All installers are zipped with password: 123456
 
 -------------
+NuIDE_V4.00.000 SP1
+-------------
+Based on V4.00.000 and add the following issue.
+[Features]
++ Add search function to instruction help window
++ Enhanced version updater
+   - Only show version check result at NuIDE open
+   - Provide release note information
+   - Can skip this new version and prompt at newer version detected
+   - Do not show this updater within today
+
+-------------
 NuIDE_V4.00.000
 -------------
 Based on V3.08.000 SP9 and add the following issue.
