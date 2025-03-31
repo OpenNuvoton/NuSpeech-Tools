@@ -1,4 +1,37 @@
 All installers are zipped with password: 123456
+---------------------------------------------------
+NSPPlayListEditor_V3.00.000 SP1
+---------------------------------------------------
+Based on V3.00.000.
+
+[Features]
+1. Support to add "WAX" file into resource window
+2. Enable 0 ms debounce time for the NSP2/NSR project demo mode setting
+3. Support functions for NSR chip project
+  a. Enable sleep mode
+  b. I2C mode
+  c. Configurable GPIO pins as LED, Keypad, touch pad
+  d. Configurable LED effects.
+  e. touch configuration tool to calibrate touch pad
+  f. volume increase and decrease functionality on demo mode
+4. update help documents
+  a. Add a table containing timing parameters taken from the Playback command sent by the host to the sound emitted by the Speaker in the timing documents.
+  b. Rename "REC_INDEX_START" to "REC_RES_INDEX_START" in interface documents.
+  c. Add NSR chip series in interface documents.
+5. Show "UART" and "I2C" in project setting GUI for simple chinese.
+6. Support set individual channel volume for NSP2340/NSR chip series
+  a. volume control command [SET_CHANNEL_VOL] and [GET_CHANNEL_VOL]
+7. Support demo mode project can be updated by NuMicro ISP tool.
+8. Adjust the HID flash read and write delay time to prevent the program from running too slowly
+9. update mass storage firmware file [59.03.0E.0A] to support these command
+  a. touch calibration command [CMD_READ_DIAG] for NSR chip project.
+  b. volume control command [SET_CHANNEL_VOL] and [GET_CHANNEL_VOL] for NSP2/NSR chip project
+
+[Bug-Fixed]
+1. force enable the power amplifier function for these chip projects 
+  a. NSP2080A[01|03]G
+  b. NSP2170A[01|03]G
+  c. NSP2340A[01|03]G
 
 ---------------------------------------------------
 NSP PlayList Editor V3.00.000
