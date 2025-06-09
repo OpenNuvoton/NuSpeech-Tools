@@ -1,6 +1,44 @@
 All installers are zipped with password: 123456
 
 -------------
+N584H SDS V1.03.000 SP4
+-------------
+Based on SDS V1.03.000 SP3 and add following issue.
+
+[Features]
++ Supported resource window dark mode
++ Added the display of internal ROM usage statistics (programs and resources) on the bottom-right graph in NuIDE
++ Added support for viewing documents in PDF format. (Requires NuIDE version V4.00.000 SP2 or later.)
++ Revised documents.
+
+[Bug-Fixed] 
++ Fixed an issue where text in the memory information section of the resource window was cut off when Windows display scaling was applied.
+ 
+-------------
+N584H SDS V1.03.000 SP3
+-------------
+Based on SDS V1.03.000 SP2 and add following issue.
+
+[Feature]
+ + Add new option - 0 ms debounce setting for direct trigger.
+ 
+-------------
+N584H SDS V1.03.000 SP2
+-------------
+Based on SDS V1.03.000 SP1 and add following issue.
+
+[Bug-Fixed]
++ Update FW and codegen to fix UltraIO FW PWM level Resolution < 14, the LED flashing is wrong
+	
+-------------
+N584H SDS V1.03.000 SP1
+-------------
+Based on SDS V1.03.000 and add following issue.
+
+[Bug-Fixed]
++ Converting some kinds of MIDI file would cause crash. 
+
+-------------
 N584H SDS V1.03.000
 -------------
 Based on SDS V1.02.000 SP2 and add following issue.
