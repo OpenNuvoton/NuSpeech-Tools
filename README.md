@@ -1,9 +1,52 @@
 All installers are zipped with password: 123456
 
 -------------
+NuIDE_V4.00.000 SP3
+-------------
+Based on V4.00.000 SP2 and add the following issue.
+
+[Features]
++ Support IDT UI mode.
++ Support project type “Powerscript with C”.
++ Support getting tab control icons from SDS and displaying them on the tab control of the Library Settings Window.
++ Added duplicate ICON in toolbar.
+
+[Bug-Fixed]
++ Fixed: The invoked installer cannot complete the flow when updating NuIDE.(# 0004319)
++ Fixed: When load and reload among SDS, the use of chipinfo.dll should be loaded from each SDS instead of using firstly loaded one.
++ Fixed: When loading the N588LP, an error message saying “Failed to load chip information” appears, even though the information has actually loaded correctly.
++ Fixed: The external tools' ICON cannot show in Docking Toolbar.
++ Fixed an issue where the theme style of the Library Setting window was lost after opening the Option window or applying settings.
+
+-------------
+NuIDE_V4.00.000 SP2
+-------------
+Based on V4.00.000 SP1 and add the following issue.
+
+[Features]
++ Support viewing PDF format document.
++ Update Icons for docking window and file types
++ Enlarge the width of bottom-right RAM/ROM information box for new information containing percentage of program/resource used ROM.
++ Added menu to show external tools of opened SDS.
+
+-------------
+NuIDE_V4.00.000 SP1
+-------------
+Based on V4.00.000 and add the following issue.
+
+[Features]
++ Add search function to instruction help window
++ Enhanced version updater
+   - Only show version check result at NuIDE open
+   - Provide release note information
+   - Can skip this new version and prompt at newer version detected
+   - Do not show this updater within today
+
+-------------
 NuIDE_V4.00.000
 -------------
 Based on V3.08.000 SP9 and add the following issue.
+
 [Features]
  + Change NuIDE icon
  + Support dark mode.
