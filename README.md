@@ -1,4 +1,26 @@
 All installers are zipped with password: 123456
+
+---------------------------------------------------
+NSPPlayListEditor_V3.00.000 SP2
+---------------------------------------------------
+Based on V3.00.001.
+
+[Features]
+1. Support text to speech function by ChatGPT
+2. Support these play mode (increase volume/decrease volume/stop) for demo mode
+3. Update help documents
+  a. text to speech content
+4. Support NSP[2340|2170|2080]BA24 chip
+5. Support to set the default volume function on NSP2/NSR project setting
+6. Support to set two channel playback simultaneously function on NSP2 project setting
+8. Support to set global volume boost on project setting
+9. Open the appropriate user guide based on the selected UI display language
+
+[Bug-Fixed]
+1. Fixed if close project without closing wav preview GUI, will make close project fail.
+2. Fixed the resource EQ function does not take effect even when enabled
+3. Fixed HW+SW volume control initialization incorrect then cause incorrect volume after wakeup
+
 ---------------------------------------------------
 NSPPlayListEditor_V3.00.000 SP1
 ---------------------------------------------------
