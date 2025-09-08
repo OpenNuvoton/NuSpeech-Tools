@@ -20,4 +20,4 @@ NuSpeech SDS installer
 NSP Playlist installer
 -------------
 - [NSP ICP Writer]V2.01.000
-- [NSP PlayList Editr]V3.00.000+SP1
+- [NSP PlayList Editor]V3.00.000+SP2
