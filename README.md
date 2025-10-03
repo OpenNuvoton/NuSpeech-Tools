@@ -146,5 +146,5 @@ NSP ICP Writer_V1.00.000
 1. NSP Style UI and document
 2. Fix the detection device fail problem PID and VID can't get valid string.
 
-
+---------------------------------------------------------
 All installers are zipped with password: 123456
