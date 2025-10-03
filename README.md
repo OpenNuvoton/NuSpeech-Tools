@@ -1,5 +1,3 @@
-All installers are zipped with password: 123456
-
 -------------
 NuSpeech IDE installer
 -------------
@@ -15,6 +13,12 @@ NuSpeech SDS installer
 - [N588L]V1.07.000+SP5
 - [N589] V2.00.000
 - [W584] V3.07.000
+
+-------------
+NuSpeech Tools installer
+-------------
+- [UltraIO] V6.11.000+SP3
+- [ICP Writer] V2.04.000
 
 -------------
 NSP Playlist installer
