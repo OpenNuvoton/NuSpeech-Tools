@@ -1,4 +1,3 @@
-All installers are zipped with password: 123456
 
 ---------------------------------------------------
 NSPPlayListEditor_V3.00.000 SP2
@@ -426,3 +425,6 @@ NSP PlayList Editor Tool V1.08.000
  13. Click Next time not notify update NSP_HOST message and re-build+write message will pop up this message.
  14. Add one wire and two function
  15. Add Rebuild function 
+
+---------------------------------------------------
+All installers are zipped with password: 123456
