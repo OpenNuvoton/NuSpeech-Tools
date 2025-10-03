@@ -1,4 +1,3 @@
-All installers are zipped with password: 123456
 
 -------------
 N588L_V1.07.000 SP5 
@@ -99,3 +98,6 @@ Based on SDS V1.05.000 and add the following issues.
 [Features]
 + Support play by index function.
 + Support to apply the property about shift sample position on UltraIO file.
+
+-------------
+All installers are zipped with password: 123456
