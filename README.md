@@ -1,4 +1,3 @@
-All installers are zipped with password: 123456
 
 -------------
 W584 SDS V3.07.000
@@ -13,3 +12,6 @@ Based on V3.06.000 SP1 and add the following issue.
 
 [Bug-Fixed]
 + MIPS-First UltraIO work incorrectly.
+
+-------------
+All installers are zipped with password: 123456
