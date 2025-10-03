@@ -1,4 +1,3 @@
-All installers are zipped with password: 123456
 
 -------------
 NuIDE_V4.00.000 SP4
@@ -202,3 +201,6 @@ Based on V3.07.000 SP5 and add the following issue.
 + Quick find combobox in toolbar cannot work (#3034)
 + No error message when invalid directory path (mantis:3040)
 + Change display format of array variables in Watch window (mantis:3124)
+
+-------------
+All installers are zipped with password: 123456
