@@ -1,5 +1,3 @@
-All installers are zipped with password: 123456
-
 -------------
 N567H - V3.04.000 SP5
 -------------
@@ -63,4 +61,6 @@ Based On N567H_V3.03.000 SP1 and add the following issues.
     
 [Fix]
 + Prevent user from changing chip to N567H/K/G 120,160,200.
-    
+
+-------------
+All installers are zipped with password: 123456
