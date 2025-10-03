@@ -1,4 +1,3 @@
-All installers are zipped with password: 123456
 
 -------------
 N584H SDS V1.03.000 SP4
@@ -63,3 +62,6 @@ Based on SDS V1.02.000 SP2 and add following issue.
 + After switching chip the SDS didn't force rebuild project so it link the wrong .lic and cause linking error.
 + Some optional Functions are not saved after close then open project.
 + Make unused pins to be output low to avoid currency leakage.
+
+-------------
+All installers are zipped with password: 123456
