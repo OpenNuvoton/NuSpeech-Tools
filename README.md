@@ -1,9 +1,5 @@
-All installers are zipped with password: 123456
+All installers are zipped with password: nuvoton
 
 -------------
-NuSpeech IDE Release Note
--------------
-
--------------
-NuSpeech SDS Release Note
+NuSpeech UltraIO Release Note
 -------------
