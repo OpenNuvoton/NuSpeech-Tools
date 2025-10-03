@@ -1,4 +1,3 @@
-All installers are zipped with password: 123456
 
 -------------
 N589 SDS V2.00.000
@@ -466,3 +465,6 @@ N589 SDS V1.08.000
 + FW - Fixed the incorrect response of TG wake-up in the CapTouch wake-up check mechanism
 + FW – compiling error due to extra table
 + FW – [N589E] Update PS kernel for LVD wrong naming
+
+-------------
+All installers are zipped with password: 123456
