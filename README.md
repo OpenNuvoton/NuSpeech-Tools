@@ -1,5 +1,3 @@
-All installers are zipped with password: 123456
-
 -------------
 N566H - V1.06.000 SP16
 -------------
@@ -139,3 +137,5 @@ N566H - V1.06.000
 [Bug-Fixed]
  + Play [0ms] is illegal and SDS have to locate where is the problem
  
+  -----------------------------
+ All installers are zipped with password: 123456
