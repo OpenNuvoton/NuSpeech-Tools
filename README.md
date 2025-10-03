@@ -1,3 +1,33 @@
+------------
+UltraIO_V6.11.000 SP3
+------------
+Based on UltraIO_V6.11.000 SP2
+
+[Features]
+1. Enhance addressable LED (addr.LED) with these new features for matrix mode
+  - Extended the maximum supported addr.LED count from 255 to 65,025
+  - Enabled zoom in/out operations on the addr.LED setting and editing page
+  - Supported importing addr.LED image files and splitting them into multiple time points when either the row or column is 1
+2. Limit advanced simulation to simulate addressable LED matrix with size not over 256.
+3. Enhance flash, sine, and triangle curve frequency precision from two to four decimal places.
+
+------------
+UltraIO V6.11.000 SP2
+------------
+Based on UltraIO_V6.11.000 SP1
+
+[Features]
+1. Support the function to increase or decrease playback speed
+
+------------
+UltraIO V6.11.000 SP1
+------------
+Based on UltraIO_V6.11.000
+
+[Features]
+1. Support editing the position, transition, and color of multiple control points on color flyer and color envelope, 
+   except for the positions of the first and last control points
+
 
 ------------
 UltraIO V6.11.000
@@ -81,8 +111,8 @@ Based on UltraIO_V6.10.000 SP5
 [Feature]
 1. speed up to parse Vixen CSV data to SLED data
 2. modify curve list view layout
-  (a) change the active low icon picture
-  (b) add blank between tree node text and icon
+  a. change the active low icon picture
+  b. add blank between tree node text and icon
 
 ------------
 UltraIO V6.10.000 SP5
@@ -91,16 +121,16 @@ Based on UltraIO_V6.10.000 SP4
 
 [Feature]
 1. modify the new layout to import SLED data from Vixen data window
-  (a) add [Replace serial LED data] or [Append serial LED data] selection on serial LED mode
-  (b) add [Scale data to fit waveform] selection on serial LED mode
-  (c) remove color mode selection
-  (d) remove sample selection on timing group
-  (e) show wire scan order setting if selected serial LED group is matrix mode
+  - add [Replace serial LED data] or [Append serial LED data] selection on serial LED mode
+  - add [Scale data to fit waveform] selection on serial LED mode
+  - remove color mode selection
+  - remove sample selection on timing group
+  - show wire scan order setting if selected serial LED group is matrix mode
 2. add advance simulation to support SLED edit and play
 3. modify UIO batch merge convert window
-  (a) add grid line to control lists
-  (b) add auto LED flash frequency restriction to [WAV->WIO] and [WIO->WAV]
-  (c) fix the problem that the triangle curve disappear after importing with option SCALE
+  - add grid line to control lists
+  - add auto LED flash frequency restriction to [WAV->WIO] and [WIO->WAV]
+  - fix the problem that the triangle curve disappear after importing with option SCALE
 4. update reset layout registry file to clear more layout data
 
 ------------
@@ -154,11 +184,11 @@ Based on UltraIO_V6.09.000 SP4
 
 [Feature]
 1. new serial LED functions
-   a. copy serial LED time points and paste to another UltraIO file then scale time points position to fit target file
-   b. copy serial LED group and paste to another UltraIO file then scale time points position to fit target file
-   c. support to add multiple time points on serial LED group by right-mouse clicking on Serial LED event view
-   d. support to pick color by right-mouse clicking on color pixel panel
-   e. limit Serial LED max LED count to 256
+   - copy serial LED time points and paste to another UltraIO file then scale time points position to fit target file
+   - copy serial LED group and paste to another UltraIO file then scale time points position to fit target file
+   - support to add multiple time points on serial LED group by right-mouse clicking on Serial LED event view
+   - support to pick color by right-mouse clicking on color pixel panel
+   - limit Serial LED max LED count to 256
 2. import serial LED data in batch mode
 3. import Vixen format CSV file using menu [File | Import Vixen format data from CSV file]
 4. support LED flash check function using menu [Run | Run LED Flash Check] with set frequency range and set ignore to change message color
@@ -182,8 +212,8 @@ Based on UltraIO_V6.09.000 SP3
 1. record the last enable option for "Enable color Range By Wave Length"
 2. enable serial LED fading setting
 3. modify the time and sample rate limitation for creating silence wave file
-  a. time length must be bigger than 1 (ms)
-  b. sample rate must be bigger than 30 (sample/second)
+  - time length must be bigger than 1 (ms)
+  - sample rate must be bigger than 30 (sample/second)
 4 check total used memory size to show waveform and curve information for creating silence wave file
 
 ------------
