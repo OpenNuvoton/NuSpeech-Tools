@@ -1,3 +1,17 @@
+-------------
+N589 SDS V2.00.000 SP1 2025/10/15
+-------------
+Based On N589_V2.00.000 and add the following issue.
+
+[Features]
+ + N589L support two-channel playback.
+ + For PowerScript table lookup function, allow one new scenario: if table is in Program section, looup table command can be in any section.
+ + Added two more options of Debounce Time for Direct Trigger: [24|30] ms.
+
+[Bug-Fixed]
+ + Adjust HW engine wakeup flow for runtime color fly to ensure correct color index update and LED transition.
+ + IR Tx pin just has BP24 excluding BP14 for N589D125 TSSOP20.
+
 
 -------------
 N589 SDS V2.00.000
