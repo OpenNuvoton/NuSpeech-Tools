@@ -1,4 +1,23 @@
 ------------
+UltraIO_V6.11.000 SP4
+------------
+Based on UltraIO_V6.11.000 SP3
+
+[Features]
++ Support amplitude modulation curve that can combine two existing curve types on curve pin
++ Support viewing circle layout on serial LED matrix mode
++ The Serial LED import image window now includes the following features:
+  - Select all items using either the shortcut key Ctrl+A or the right-click context menu
+  - Set interval values for multiple items using the shortcut key Ctrl+I or the right-click context menu
++ Clicking the question mark button will open the PDF documentation and navigate to the specified page.
+
+[Bug Fixed]
++ Fixed issue where WIO import with scaling enabled causes the spline curve’s endpoint to exceed the waveform’s final sample.
++ Fixed issue where no error message was shown when the import curves from WIO failed
++ Fixed issues where Copy or Cut operations produced unexpected results when frequency transition was enabled
++ Fixed issue where scrolling the mouse wheel outside the view window would trigger unintended zoom in/out effects
+
+------------
 UltraIO V6.11.000 SP3
 ------------
 Based on UltraIO V6.11.000 SP2
