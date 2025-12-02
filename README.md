@@ -1,4 +1,40 @@
-All installers are zipped with password: 123456
+-------------
+N589 SDS V2.00.000 SP2
+-------------
+Based On N589_V2.00.000 SP1 and add the following issue.
+
+[Features]
++ Added chip items: N589D [086/126/176] [SOP8/SOP14/TSSOP20]
++ For N589E, display timers used by what kinds of PS/ASM functions
++ Added Amplitude Modulation feature to UltraIO.
++ Update NSS, NSP, NSPO codec.
++ Volume transition according to the time set by command
++ For N589L, added options of “HW Protection Mode”.
++ Write checksum to USRCFG2 for verification. The checksum written is the same as the last two bytes of .obj file as well as the checksum in "S/W" item's value in form file, which is the number after version and customer id.
+
+[Fixed Bugs]
++ Prevent key-scan from missing valid key presses due to glitches.  Key polling will also be performed when a port interrupt occurs.
++ Fixed RGB LED white flash during HW PWM transition before entering sleep
++ Fixed an issue in which the PowerScript LRC wake-up function might cause a compiler error on certain chip bodies.
++ Fixed multi-byte character handling in line continuation detection
++ Fixed: Selecting "Disable" option in "Initial RAM Clear" would mistakenly clear the lib RAM.
++ Fixed some compiling error for common files of C language.
+
+
+-------------
+N589 SDS V2.00.000 SP1 2025/10/15
+-------------
+Based On N589_V2.00.000 and add the following issue.
+
+[Features]
+ + N589L support two-channel playback.
+ + For PowerScript table lookup function, allow one new scenario: if table is in Program section, looup table command can be in any section.
+ + Added two more options of Debounce Time for Direct Trigger: [24|30] ms.
+
+[Bug-Fixed]
+ + Adjust HW engine wakeup flow for runtime color fly to ensure correct color index update and LED transition.
+ + IR Tx pin just has BP24 excluding BP14 for N589D125 TSSOP20.
+
 
 -------------
 N589 SDS V2.00.000
@@ -466,3 +502,6 @@ N589 SDS V1.08.000
 + FW - Fixed the incorrect response of TG wake-up in the CapTouch wake-up check mechanism
 + FW – compiling error due to extra table
 + FW – [N589E] Update PS kernel for LVD wrong naming
+
+-------------
+All installers are zipped with password: 123456
