@@ -11,14 +11,14 @@ NuSpeech SDS installer
 - [N584H]V1.03.000+SP4
 - [N588H]V3.15.000+SP12
 - [N588L]V1.07.000+SP5
-- [N589] V2.00.000+SP1
+- [N589] V2.00.000+SP2
 - [W584] V3.07.000
 
 -------------
 NuSpeech Tools installer
 -------------
-- [UltraIO] V6.11.000+SP3
-- [ICP Writer] V2.05.000
+- [UltraIO] V6.11.000+SP4
+- [ICP Writer] V2.06.000
 
 -------------
 NSP Playlist installer
