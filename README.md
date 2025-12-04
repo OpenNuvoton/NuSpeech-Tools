@@ -1,4 +1,12 @@
 -------------
+N567H - V3.04.000 SP6
+-------------
+Based On N567H_V3.04.000 SP5 and add the following issues.
+
+[Features]
++ Add procedure of checking stack overflow.
+
+-------------
 N567H - V3.04.000 SP5
 -------------
 Based On N567H_V3.04.000 SP4 and add the following issues
