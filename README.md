@@ -382,6 +382,3 @@ Based on UltraIO V6.02.000
 + Add Property View to edit the control point color and morphing.
 + Add file list to record the used UltraIO file.
 + Add the file list to advance simulation view. 
-
-------------
-All installers are zipped with password: nuvoton
