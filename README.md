@@ -19,6 +19,10 @@ NuSpeech Tools installer
 -------------
 - [UltraIO] V6.11.000+SP4
 - [ICP Writer] V2.06.000
+- [Gang Writer] V2.03.000
+- [OTP Writer] V2.11.000
+- [USB Writer] V2.04.040
+- [N589 Chip Selector] V1.19.000
 
 -------------
 NSP Playlist installer
