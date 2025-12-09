@@ -3,14 +3,14 @@ N589 Chip Selection V1.19.000
 -------------
 [Fearure]
 + Support these new parts
- - N589D086 SOP8/SPO14/TSSOP20
- - N589D126 SOP8/SPO14/TSSOP20
- - N589D176 SOP8/SPO14/TSSOP20
+  - N589D086 SOP8/SPO14/TSSOP20
+  - N589D126 SOP8/SPO14/TSSOP20
+  - N589D176 SOP8/SPO14/TSSOP20
 + Remove these new parts
- - Remove N589D080 chip series
- - Remove N589D120 chip
- - Remove N589D250 chip
- - Remove N589D340 chip
+  - Remove N589D080 chip series
+  - Remove N589D120 chip
+  - Remove N589D250 chip
+  - Remove N589D340 chip
 + Updated N589L chip series to support dual-channel voice 
 
 -------------
@@ -41,7 +41,7 @@ N589 Chip Selection V1.15.000
 -------------
 [Fearure]
 + Support N589LS chip series
- - LS00/08/16/32/64
+  - LS00/08/16/32/64
 + Fixed calculate flash size 
 
 -------------
@@ -50,8 +50,8 @@ N589 Chip Selection V1.14.000
 [Fearure]
 + Support N589S chip series
 + Support these N589B/D chip TSSOP28 package
- - N589B[480|650|9601K5|2K0], N589D[650|9601K5|2K0]
- - N589B[485|655|965], N589D[655|965]
+  - N589B[480|650|9601K5|2K0], N589D[650|9601K5|2K0]
+  - N589B[485|655|965], N589D[655|965]
 + Support external flash to calculate duration
 
 -------------
