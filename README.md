@@ -8,9 +8,9 @@ N589 Chip Selection V1.19.000
   - N589D176 SOP8/SPO14/TSSOP20
 + Remove these new parts
   - Remove N589D080 chip series
-  - Remove N589D120 chip
-  - Remove N589D250 chip
-  - Remove N589D340 chip
+  - Remove N589D120 chip series
+  - Remove N589D250 chip series
+  - Remove N589D340 chip series
 + Updated N589L chip series to support dual-channel voice 
 
 -------------
