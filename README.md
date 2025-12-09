@@ -2,11 +2,11 @@
 N589 Chip Selection V1.19.000
 -------------
 [Fearure]
-+ Support these new parts:
++ Support these new parts
  - N589D086 SOP8/SPO14/TSSOP20
  - N589D126 SOP8/SPO14/TSSOP20
  - N589D176 SOP8/SPO14/TSSOP20
-+ Remove these new parts:
++ Remove these new parts
  - Remove N589D080 chip series
  - Remove N589D120 chip
  - Remove N589D250 chip
