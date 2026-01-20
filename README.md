@@ -1,4 +1,99 @@
-All installers are zipped with password: 123456
+---------------------------------------------------
+NSPPlayListEditor_V3.00.000 SP3
+---------------------------------------------------
+Based on V3.00.000 SP2.
+
+[Features]
+1. Support for volume boost, with a maximum boost of 20 dB.
+2. Support for the NSP3001 chip in the NSP3 Series.
+3. Support for the NSP2340B (ISP function disabled).
+4. Prompts for username, company, and email address during installation to enable version tracking via Outlook.
+5. Configurable auto‑sleep function for demo mode in NSP2 chip projects (enabled by default).
+6. Support for stopping flash write operations.
+7. Support for displaying resource status when encoding fails.
+8. New TTS features:
+   - Support for Spark AI TTS with adjustable volume (0–100, default 50).
+   - Support for recently used translation languages in TTS.
+   - Option to select ChatGPT or Spark AI for TTS.
+   - Ability to save TTS output as a WAV file.
+9. Enabled LVR function for NSR and NSP2 projects.
+10. Ability to stop preview playback at any play index or resource item selected.
+11. Updated NSP Update Tool:
+   - Support for the NSP3 chip series.
+   - Support for the volume boost function.
+   - Support for applying equalizer configurations.
+   - Update user guide document.
+12. Updated NSP Partial Update Converter Tool:
+   - Support for the NSP3 chip series.
+   - Support for silence compression.
+   - Support for the volume boost function.
+   - Support for applying equalizer configurations.
+   - Update user guide document.
+
+[Bug Fixes]
+1. Fixed an issue where resource file could not be sorted by name or format in the resource window.
+2. Fixed a crash caused by dragging and dropping multiple audio files into the sound editing index.
+3. Fixed when the Combo Key feature is disabled, an additional wait time of 60 ms(confirm the Combo Key action) is removed.
+4. Fixed an issue where adjusting EQ and Loop functions required forced encoding.
+5. Fixed an issue where adding a resource file to the play index caused it to appear as unused.
+6. Fixed support for WAV files in MP3 format.
+7. Fixed an issue where using the N_MULTI_PLAY command and continuously polling playback status could return an incorrect status value 0x40 (Not Playing) during playback
+
+
+---------------------------------------------------
+NSPPlayListEditor_V3.00.000 SP2
+---------------------------------------------------
+Based on V3.00.000 SP1.
+
+[Features]
+1. Support text to speech function by ChatGPT
+2. Support these play mode (increase volume/decrease volume/stop) for demo mode
+3. Update help documents
+  a. text to speech content
+4. Support NSP[2340|2170|2080]BA24 chip
+5. Support to set the default volume function on NSP2/NSR project setting
+6. Support to set two channel playback simultaneously function on NSP2 project setting
+8. Support to set global volume boost on project setting
+9. Open the appropriate user guide based on the selected UI display language
+
+[Bug-Fixed]
+1. Fixed if close project without closing wav preview GUI, will make close project fail.
+2. Fixed the resource EQ function does not take effect even when enabled
+3. Fixed HW+SW volume control initialization incorrect then cause incorrect volume after wakeup
+
+---------------------------------------------------
+NSPPlayListEditor_V3.00.000 SP1
+---------------------------------------------------
+Based on V3.00.000.
+
+[Features]
+1. Support to add "WAX" file into resource window
+2. Enable 0 ms debounce time for the NSP2/NSR project demo mode setting
+3. Support functions for NSR chip project
+  a. Enable sleep mode
+  b. I2C mode
+  c. Configurable GPIO pins as LED, Keypad, touch pad
+  d. Configurable LED effects.
+  e. touch configuration tool to calibrate touch pad
+  f. volume increase and decrease functionality on demo mode
+4. update help documents
+  a. Add a table containing timing parameters taken from the Playback command sent by the host to the sound emitted by the Speaker in the timing documents.
+  b. Rename "REC_INDEX_START" to "REC_RES_INDEX_START" in interface documents.
+  c. Add NSR chip series in interface documents.
+5. Show "UART" and "I2C" in project setting GUI for simple chinese.
+6. Support set individual channel volume for NSP2340/NSR chip series
+  a. volume control command [SET_CHANNEL_VOL] and [GET_CHANNEL_VOL]
+7. Support demo mode project can be updated by NuMicro ISP tool.
+8. Adjust the HID flash read and write delay time to prevent the program from running too slowly
+9. update mass storage firmware file [59.03.0E.0A] to support these command
+  a. touch calibration command [CMD_READ_DIAG] for NSR chip project.
+  b. volume control command [SET_CHANNEL_VOL] and [GET_CHANNEL_VOL] for NSP2/NSR chip project
+
+[Bug-Fixed]
+1. force enable the power amplifier function for these chip projects 
+  a. NSP2080A[01|03]G
+  b. NSP2170A[01|03]G
+  c. NSP2340A[01|03]G
 
 ---------------------------------------------------
 NSP PlayList Editor V3.00.000
