@@ -1,4 +1,33 @@
 -------------
+N566H - V1.06.000 SP18
+-------------
+Based on N566H V1.06.000 SP17.
+
+[Features]
++ Added chip items: 
+  - N566HP161F(TSSOP20), N566HP161E(TSSOP28)
+  - N566HP200F(TSSOP20), N566HP200E(TSSOP28)
+  - N566HP240F(TSSOP20), N566HP240E(TSSOP28)
+  - N566HP280F(TSSOP20), N566HP280E(TSSOP28)
+  - N566HP321F(TSSOP20), N566HP321E(TSSOP28)
+  - N566KP240F(TSSOP20), N566KP240E(TSSOP28)
+  
+-------------
+N566H - V1.06.000 SP17
+-------------
+Based on N566H V1.06.000 SP16.
+
+[Features]
++ Added chip items:
+  - N566LP120 TSSOP20/TSSOP28
+  - N566LP160 TSSOP20/TSSOP28
+  - N566LP200 TSSOP20/TSSOP28
+  - N566LP240 TSSOP20/TSSOP28
+  - N566LP280 TSSOP20/TSSOP28
+  - N566LP320 TSSOP20/TSSOP28
++ For PowerScript table lookup function, allow one new scenario: if table is in [Program], OP code can be in any section.
+
+-------------
 N566H - V1.06.000 SP16
 -------------
 [Features]
@@ -136,6 +165,3 @@ N566H - V1.06.000
 
 [Bug-Fixed]
  + Play [0ms] is illegal and SDS have to locate where is the problem
- 
-  -----------------------------
- All installers are zipped with password: 123456
