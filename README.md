@@ -6,7 +6,7 @@ NuSpeech IDE installer
 -------------
 NuSpeech SDS installer
 -------------
-- [N566H]V1.06.000+SP17
+- [N566H]V1.06.000+SP18
 - [N567H]V3.04.000+SP6
 - [N584H]V1.03.000+SP4
 - [N588H]V3.15.000+SP12
@@ -20,7 +20,7 @@ NuSpeech Tools installer
 - [UltraIO] V6.11.000+SP4
 - [ICP Writer] V2.06.000
 - [Gang Writer] V2.03.000
-- [OTP Writer] V2.11.000
+- [OTP Writer] V2.12.000
 - [USB Writer] V2.04.040
 - [N589 Chip Selector] V1.19.000
 
