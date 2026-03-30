@@ -1,3 +1,17 @@
+-------------
+NuIDE_V4.00.000 SP5
+-------------
+Based on V4.00.000 SP4 and add the following issue.
+
+[Features]
++ Support for modifying settings in text mode.
++ Enabled external tools to be displayed in the "Tools" menu of NuIDE.
++ Adjusted the header style of the property grid control in the MIDI Wave Table window.
+
+[Bug Fixed]
++ Fixed incorrect expand/collapse icons for all nodes in the Memory Layout window. (#4383)
++ Fixed an issue where some systems failed to delete empty keys when listing SDS, causing an infinite loop.
++ Fixed: The external tools' icon becomes black in tool bar.
 
 -------------
 NuIDE_V4.00.000 SP4
