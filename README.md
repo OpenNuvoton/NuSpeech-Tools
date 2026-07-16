@@ -1,4 +1,16 @@
 ---------------------------------------------------
+NSPPlayListEditor_V3.01.000 SP1
+---------------------------------------------------
+Based on V3.01.000 SP1
+
+[Bug-Fixed]
+1. Fixed an issue causing AI tokens to be consumed during ChatGPT background network connection checks
+2. Removed the Close Panel feature from AI Assistant.
+3. Fixed an issue where the menu and toolbar UI were disabled during software version checks, preventing users from creating or opening project
+4. Increase stack sizer to avoid FW HardFault at issue commands during dual-channel playback busy periods
+
+
+---------------------------------------------------
 NSPPlayListEditor V3.01.000
 ---------------------------------------------------
 Based on V3.00.000 SP3
