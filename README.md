@@ -28,4 +28,4 @@ NuSpeech Tools installer
 NSP Playlist installer
 -------------
 - [NSP ICP Writer]V2.04.000
-- [NSP PlayList Editor]V3.01.000
+- [NSP PlayList Editor]V3.01.000+SP1
