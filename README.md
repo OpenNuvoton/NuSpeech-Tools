@@ -1,4 +1,12 @@
 -------------
+N567H - V3.04.000
+-------------
+Based On N567H_V3.04.000 SP6 and add the following issues
+
+[Feature]
++ Added “Ultra” wave table.
+ 
+-------------
 N567H - V3.04.000 SP6
 -------------
 Based On N567H_V3.04.000 SP5 and add the following issues.
