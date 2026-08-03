@@ -1,7 +1,8 @@
 -------------
-NuIDE_V4.00.000
+NuIDE_V4.00.000 SP6
 -------------
 Based on V4.00.000 SP5 and add the following issue.
+
 [Features]
  + Support UID resource definition.
  + Open Update Checker GUI from menu "[Help|Check for Updates]"
