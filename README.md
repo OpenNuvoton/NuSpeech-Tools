@@ -1,7 +1,7 @@
 -------------
 NuSpeech IDE installer
 -------------
-- [NuIDE]V4.00.000+SP5
+- [NuIDE]V4.00.000+SP6
 
 -------------
 NuSpeech SDS installer
