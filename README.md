@@ -1,4 +1,87 @@
 -------------
+N589 SDS V2.00.000 SP6
+-------------
+Based On N589_V2.00.000 SP5 and add the following issue.
+
+[Features]
++ Support play by index at selecting .uid file as default resource file not .nres file
++ Support NM4 with loop enable option in resource window
++ Support parsing new user event format
++ Support Ultra MIDI timbre files
+
+[Bug-Fixed]
++ Fixed a bug in which using the IO Expander feature caused inaccurate delay timing
+
+-------------
+N589 SDS V2.00.000 SP5
+-------------
+Based On N589_V2.00.000 SP4 and add the following issue.
+
+[Features]
++ New “UIO RGB Sync” option for each resource file to force generate UIO RGB curve data even they do not change their outputs. 
++ New Synthesis option :“High byte index RAM enable“ to enable "PLAYW_INDEX constant",  "PLAYW_INDEX_RAM Rn" with constant/Rn as low byte of index, an extra ram("play_index_high") as high byte of index
++ New ASM and PS commands “GET_USER_UNIQUE_ID” to get user ID
++ Modify N589Exx1 SOP8's IO pins number to 4 (Added BP0.5). 
++ Support N589E041, N589E061, N589E081 SOP14. 
++ N589D085|125|175 SOP8|SOP14|TSSOP20|TSSOP28|LQFP48 support two-wire ALED
++ Provide “N589 Audio Format Introduction.pdf” under “Doc\”
++ Provide 1-wire/2wire ALED sample code under "Sample\PS\Synchronization\Play_2W_ALED_APA102" and "Sample\PS\Synchronization\Play-1W-ALED"
++ Enhanced GUI:  
+   - Resizable pin table in IO Setting window.
+   - Resizable pin table in UltraIO window.
++ Add support of playback process tracking option
+   - This option enables pseudo two-channel playback.
+   - When playback is paused and a new playback is initiated, the paused playback can be resumed after the new playback completes.  Only NSP playback is supported.
++	Adjust UI settings about silence condition
+   - Enlarge upper bound of Limit Length (ms) from 100 to 500
+   - Change default value of Limit Length (ms) from 10 to 100
+
+[Bug-Fixed]
++ Fixed an issue in which the port wakeup flag and reset flag would both set at the same time after wakeup from STOP mode for N589L project, at booster voltage set to 3.6V.
++ Sound playback incompletely for NSS format. 
+
+-------------
+N589 SDS V2.00.000 SP4
+-------------
+Based On N589_V2.00.000 SP3 and add the following issue.
+
+[Bug-Fixed]
+ + Fixed the issue in which BP14 was mistakenly set as Output Low in N589D205/255/345/485 TSSOP20.
+ + Added scroll bar to UltraIO property dialog to allow user to scroll to the bottom of the dialog in small resolution screen.
+ 
+-------------
+N589 SDS V2.00.000 SP3
+-------------
+Based On N589_V2.00.000 SP2 and add the following issue.
+
+[Features]
++ Support for new project using AI generated text.
++ N589L/LS BP1.5 should be set as input pin at enable IR wakeup. Therefore, SDS will prevent below settings to use BP1.5 as output pin.
+  - I2C function pin (SDA or SCL).
+  - ALED pin.
+  - Matrix Key output pin.
+  - General output pins.
++ For N589LS, when SPI memory is enabled, can select either "SPI Flash VSS Control" or "Boost Voltage Periodic During Sleep."
++ When "Boost Voltage Periodic During Sleep" is selected for N589LS, the system uses the default IR wake-up settings, which cannot be changed in order to save power.
++ N589D[1K5|2K0] (DIE|TSSOP28|LQFP48) supports accessing SPI Flash.
+
+[Fixed Bugs]
++ Fixed where saving after configuring I2C or UART caused system clock information to be lost, resulting in a program crash.
++ Fixed missing 0 ms debounce time in Direct Trigger GUI.
++ Fixed an UltraIO initialization issue in C projects.
++ Fixed configuring pull low resistors for C projects.
++ Fixed an issue where the display information for the I2C SDA and SCL pins was reversed.
++ Fixed an abnormal I2C pin display issue when using the N589B125 TSSOP28 chip in I/O settings.
++ Fixed a resource conversion procedure failure caused by missing VS2022 MFC C runtime libraries.
++ Update the FW Library with these modifications
+  - Change the I2C SCL and SDA pin configuration to open drain output.
+  - Set N589L/LS BP1.5 as input pin at enable SPI flash and choose "Boost voltage periodic during sleep"
+  - Modify the pin configuration to prevent current leakage on N589D655/965(TSSOP20/SOP14) and N589D960(TSSOP28)
+
+[Note]
++ Pollback NSP encoder to SP1 due to meet resource encode data are different between customer PC and our PCs.
+
+-------------
 N589 SDS V2.00.000 SP2
 -------------
 Based On N589_V2.00.000 SP1 and add the following issue.
